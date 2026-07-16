@@ -70,7 +70,7 @@ Tudo com a sua identidade. Tudo no seu tom de voz. Tudo sem você operar.
 ## Por que o Cadencia é diferente
 
 ### vs. Agência
-Agência cobra R$5k+/mês, troca de equipe, e você ainda precisa aprovar tudo e cobrar resultado. Cadencia cobra R$199-R$1.497/mês, aprende você uma vez, e entrega consistência sem você gerenciar ninguém.
+Agência cobra R$5k+/mês, troca de equipe, e você ainda precisa aprovar tudo e cobrar resultado. Cadencia funciona por créditos — você compra o que usar, sem mensalidade travada.
 
 ### vs. ChatGPT ou Canva
 Ferramenta genérica. Você ainda precisa saber o que fazer, ter tempo e lembrar de fazer todo dia. Cadencia faz por você — e com a sua marca, não com um template genérico.
@@ -86,16 +86,25 @@ Plataforma que você opera. Curva de aprendizado de meses. Cadencia não tem cur
 
 ---
 
-## Planos
+## Como funciona a cobrança
 
-| Plano | Preço | O que inclui |
-|-------|-------|-------------|
-| Essencial | R$199/mês | 30 créditos · Conteúdo · Email Seinfeld · Newsletter · Lead Scoring |
-| Profissional | R$399/mês | 80 créditos · + Cold email · Cadências WhatsApp |
-| Business | R$799/mês | 250 créditos · + Landing pages · Agente de atendimento · Analytics |
-| Growth Pro | R$1.497/mês | Ilimitado · + Reels · Avatar · Vapi ligações · Ads |
+O Cadencia **não tem planos nem assinatura**. Funciona por **créditos puros**.
 
-**Trial gratuito:** 3 posts completos gerados para você — sem cartão, sem compromisso.
+- **1 crédito = 1 post gerado** (carrossel, email, LinkedIn, newsletter — qualquer canal)
+- **Créditos não expiram** — ficam na carteira até serem usados
+- **Comprar mais soma ao saldo** — nunca substitui o que você já tem
+
+### Pacotes de créditos (self-service)
+
+| Créditos | Preço |
+|----------|-------|
+| +10 créditos | R$49,90 |
+| +30 créditos | R$129,90 |
+| +60 créditos | R$219,90 |
+
+**Ao criar sua conta: 20 créditos grátis** para explorar o produto — sem cartão, sem compromisso.
+
+> Todos os canais ficam disponíveis pra qualquer conta — Instagram, email, LinkedIn, newsletter, blog, leads. O saldo de créditos é o único gating.
 
 ---
 
@@ -111,7 +120,7 @@ Eles sabem que precisam aparecer. Só não têm tempo, não querem aprender mais
 
 Cadencia é o braço que nunca para.
 
-**"O algoritmo de personalidade que tentei construir em 2012 — agora com IA, 14 anos depois."**
+**"O algoritmo de personalidade que tentei construiu em 2012 — agora com IA, 14 anos depois."**
 
 ---
 
@@ -131,4 +140,4 @@ A diferença: o Cadencia foi construído para o nicho de profissionais liberais.
 
 **Site:** https://cadencia.app.br
 
-3 posts grátis, sem cartão. Você vê o resultado antes de entender o processo.
+20 créditos grátis no cadastro, sem cartão. Você vê o resultado antes de entender o processo.
