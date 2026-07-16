@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"taxi","type":"text","text":"## 🚕 Motorista de Táxi\n\nSabe dirigir\nMas o carro não é dele\n\n*Dev tradicional que rejeita IA*","x":360,"y":311,"width":300,"height":250,"color":"3"},
+		{"id":"b1","type":"text","text":"**Bloco 1** *(25 min)*\n\nO preço de não saber\n*(custo de token)*\n\n→ Caso $200 em 2h\n→ Subscription → token\n→ Leitura crítica de código","x":300,"y":641,"width":260,"height":290,"color":"1"},
+		{"id":"b2","type":"text","text":"**Bloco 2** *(25 min)*\n\nModelos + Agnósticismo\n*(multi-model)*\n\n→ Custo por token\n→ Vendor lock-in\n→ Demo framework agnóstico","x":600,"y":641,"width":260,"height":290,"color":"5"},
+		{"id":"b3","type":"text","text":"**Bloco 3** *(30 min)*\n\nA inversão de tempo\n*(RFC)*\n\n→ 80% planejamento / 20% execução\n→ O que é uma RFC\n→ Grill Me reverso","x":900,"y":641,"width":260,"height":290,"color":"3"},
+		{"id":"passageiro","type":"text","text":"## 😰 Passageiro\n\nDelega tudo para a IA\nNão entende o que roda\nPaga a conta sem saber por quê\n\n*Vibe coder clássico*","x":-140,"y":311,"width":300,"height":250,"color":"1"},
+		{"id":"dono","type":"text","text":"## 🎯 Dono\n\nDefine pra onde vai\nA IA dirige\nEntende o motor o suficiente\npra saber quando ela vai pro\nlugar errado\n\n*O que essa live te ensina a ser*","x":940,"y":251,"width":300,"height":340,"color":"4"},
+		{"id":"title","type":"text","text":"# Live 02 — De Passageiro a Dono\n\nO que o Vibe Coding está escondendo de você\n\n*No-code foi a porta de entrada. O que vai determinar quem continua no mercado daqui a 2 anos não é saber mais ferramentas — é entender o que as ferramentas estão fazendo.*","x":160,"y":-80,"width":700,"height":251,"color":"6"},
+		{"id":"intro","type":"text","text":"**Intro** *(10 min)*\n\nAncoragem + tese\n\n→ A pergunta que quebra\n→ Passageiro × Dono","x":-80,"y":686,"width":260,"height":200,"color":"6"},
+		{"id":"b5","type":"text","text":"**Bloco 5** *(15 min)*\n\nO próximo degrau\n*(piso mínimo)*\n\n→ O que estudar\n→ Em que ordem\n→ Encerramento","x":1580,"y":671,"width":260,"height":260,"color":"4"},
+		{"id":"b4","type":"text","text":"**Bloco 4** *(35 min)*\n\nAs regras que a IA quebra\n*(DRY + ETC + Ortogonalidade)*\n\n→ Princípios do Pragmático\n→ Demo violações reais\n→ Quality gates","x":1240,"y":626,"width":260,"height":320,"color":"2"}
+	],
+	"edges":[
+		{"id":"e_pass_taxi","fromNode":"passageiro","fromSide":"right","toNode":"taxi","toSide":"left","label":"evolui"},
+		{"id":"e_taxi_dono","fromNode":"taxi","fromSide":"right","toNode":"dono","toSide":"left","label":"sobe de nível"},
+		{"id":"e_intro_b1","fromNode":"intro","fromSide":"right","toNode":"b1","toSide":"left"},
+		{"id":"e_b1_b2","fromNode":"b1","fromSide":"right","toNode":"b2","toSide":"left"},
+		{"id":"e_b2_b3","fromNode":"b2","fromSide":"right","toNode":"b3","toSide":"left"},
+		{"id":"e_b3_b4","fromNode":"b3","fromSide":"right","toNode":"b4","toSide":"left"},
+		{"id":"e_b4_b5","fromNode":"b4","fromSide":"right","toNode":"b5","toSide":"left"}
+	]
+}

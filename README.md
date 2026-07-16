@@ -7,82 +7,109 @@
 
 ## Como usar este repositório
 
-**Opção 1 — Ler com seu modelo de IA (recomendado)**
+**Opção 1 — Estudar com IA (recomendado)**
 
 Cole este prompt no seu modelo de IA (Claude, ChatGPT, Gemini, etc.):
 
 ```
-Leia o repositório abaixo e me ajude a estudar o conteúdo da live [número].
-Começa pelo README, depois pelo arquivo de conteúdo da live.
-Pode me fazer perguntas para testar meu entendimento?
-
-[cole o link do repo ou copie os arquivos]
+Você vai me ajudar a estudar o conteúdo do curso NoCode Startup.
+Leia o repositório treinamentos-nocode do Felipe Salgueiro no GitHub.
+Comece pelo README principal, depois pelo README da live que quero estudar.
+Me faça perguntas para testar meu entendimento — uma por vez.
 ```
 
-**Opção 2 — Ler diretamente**
+**Opção 2 — Acompanhar ao vivo**
 
-Cada live tem um arquivo `conteudo.md` com todos os conceitos explicados em detalhe,
-como se fosse um livro. Pode ler do início ao fim ou navegar pelos blocos.
+Cada live tem um `skeleton.md` com a estrutura completa — use durante a aula para saber onde estamos.
 
-**Opção 3 — Acompanhar o esqueleto durante a live**
+**Opção 3 — Estudar depois**
 
-O arquivo `live-XX.md` tem a estrutura completa da aula. Use para acompanhar
-ao vivo e saber em que ponto da aula você está.
+O arquivo `conteudo.md` de cada live tem todos os conceitos explicados em detalhe, com diagramas e exemplos.
 
 ---
 
-## Estrutura do curso
+## Estrutura
 
 ```
 treinamentos-nocode/
-├── README.md              ← você está aqui
-├── live-01/               ← Live 01: O que é um harness de IA
-│   └── (em breve)
-└── live-02/               ← Live 02: De Passageiro a Dono
-    ├── README.md          ← visão geral da live
-    ├── skeleton.md        ← estrutura completa da aula
-    ├── conteudo.md        ← conteúdo detalhado para estudo
-    └── demos/             ← scripts das demos ao vivo
-        ├── demo-custo-token.md
-        ├── demo-rfc.md
-        ├── demo-dry-violation.md
-        └── demo-agnosticismo.md
+├── README.md                          ← você está aqui
+│
+├── live-01/                           ← Como Montar seu Próprio Harness de IA
+│   ├── README.md                      ← visão geral + como estudar
+│   └── skeleton.md                    ← estrutura completa da aula
+│
+├── live-02/                           ← De Passageiro a Dono
+│   ├── README.md                      ← visão geral + tarefa de fixação
+│   ├── skeleton.md                    ← estrutura completa da aula
+│   ├── conteudo.md                    ← conteúdo detalhado para estudo
+│   ├── canvas/
+│   │   └── live-02-intro-canvas.canvas ← diagrama visual (abrir no Obsidian)
+│   └── demos/                         ← scripts das demos ao vivo
+│       ├── demo-custo-token.md
+│       ├── demo-rfc.md
+│       ├── demo-dry-violation.md
+│       └── demo-agnosticismo.md
+│
+├── recursos/                          ← materiais de referência
+│   ├── README.md                      ← como usar os recursos
+│   └── glossario-dev-design.md        ← ~930 termos dev e design
+│
+└── skills/                            ← 37 skills para Claude Code
+    ├── README.md                      ← instruções de instalação
+    ├── install.ps1                    ← instalar no Windows
+    ├── install.sh                     ← instalar no Mac/Linux
+    └── [37 skills organizadas por categoria]
 ```
+
+---
+
+## Lives
+
+| Live | Título | Status |
+|------|--------|--------|
+| [01](live-01/) | Como Montar seu Próprio Harness de IA com Claude Code | ✅ Realizada |
+| [02](live-02/) | De Passageiro a Dono: o que o Vibe Coding está escondendo de você | 📅 Agosto/2026 |
+
+---
+
+## Skills incluídas
+
+37 skills prontas para instalar no Claude Code — code review, debugging, TDD, spec-driven dev, arquitetura e mais.
+
+**Instalar no Windows:**
+```powershell
+cd skills
+.\install.ps1
+```
+
+**Instalar no Mac/Linux:**
+```bash
+cd skills
+chmod +x install.sh && ./install.sh
+```
+
+Após instalar, reinicie o Claude Code. As skills ficam disponíveis em todos os seus projetos.
+
+---
+
+## Canvas (diagramas visuais)
+
+Os arquivos `.canvas` funcionam no **Obsidian** (gratuito). Para abrir:
+1. Instale o Obsidian: https://obsidian.md
+2. Abra este repositório como vault no Obsidian
+3. Navegue até o arquivo `.canvas` — o diagrama abre automaticamente
 
 ---
 
 ## Sobre o curso
 
-**NoCode Startup** é uma plataforma de educação para founders e builders que querem
-construir produtos com IA sem depender 100% de desenvolvedores.
+**Felipe Salgueiro** é fundador da Cadencia — empresa que usa IA com agentes e harnesses em produção.
+O material deste repo é baseado em experiências reais, não em teoria de laboratório.
 
-**Felipe Salgueiro** é o instrutor das lives de Claude Code — fundador da Cadencia,
-que usa IA com agentes e harnesses para operar o próprio negócio.
-
-Os materiais deste repositório são baseados em experiências reais do dia a dia
-de quem usa IA em produção — não em teoria de laboratório.
-
----
-
-## Progresso das lives
-
-| Live | Título | Status |
-|------|--------|--------|
-| 01 | O que é um harness de IA — CLAUDE.md, STATE.md, skills | ✅ Realizada |
-| 02 | De Passageiro a Dono: o que o Vibe Coding está escondendo de você | 📅 Agosto/2026 |
-
----
-
-## Tarefa de fixação (Live 02)
-
-Antes da próxima live, faça isso:
-
-1. **Escolha uma feature do seu produto** — pode ser simples
-2. **Escreva uma RFC** usando o template do arquivo `live-02/demos/demo-rfc.md`
-3. **Use a RFC como contexto** para pedir à IA que implemente a feature
-4. **Compare** o resultado com o que você teria obtido com um prompt genérico
-
-Se quiser feedback, compartilhe sua RFC no grupo do curso.
+**HIVE** — o harness open source apresentado na Live 01:
+- Repo: https://github.com/felipeluissalgueiro/hive
+- 11 squads, memória estruturada, 9 hooks, skill `/hive-setup`
+- `git clone` + `/hive-setup` → personalizado em 10 minutos
 
 ---
 

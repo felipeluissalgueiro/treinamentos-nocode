@@ -1,0 +1,4 @@
+interface:
+  display_name: "Runtime Fix Review"
+  short_description: "Read-only fix review with runtime checks."
+  default_prompt: "Run a strict read-only fix review, validate requested fixes in code and runtime, execute required checks, and write a structured PASS/FAIL/WARN report with RUN lines and P1-P3 recommendations."
