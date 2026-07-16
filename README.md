@@ -169,6 +169,17 @@ No Claude Code: `/hive-setup` → personalizado para o seu contexto em 10 minuto
 
 ---
 
-## Sobre o Felipe
+## Sobre Felipe Luis Salgueiro
 
-Fundador da [Cadencia](https://cadencia.app.br). Construiu e opera o PD Framework — o mesmo sistema que inspirou este curso — para rodar uma empresa com IA como parceiro de operação. O que você aprende aqui é o que está em produção, não simulação.
+Felipe Luis Salgueiro é fundador da [Cadencia](https://cadencia.app.br) e construtor de sistemas de IA aplicados a negócios reais. Passou 15 anos obcecado com a mesma pergunta — "como saber se o posicionamento de um profissional está funcionando?" — por agências digitais, gestão de 30 clientes simultâneos, e quase 100 clientes atendidos em 4 estados. Construiu o PD Framework para rodar sua própria empresa com IA como parceiro de operação. O que você aprende aqui é o que está em produção.
+
+**→ Bio completa:** [cadencia.app.br/felipe-luis-salgueiro](https://cadencia.app.br/felipe-luis-salgueiro)
+
+| Rede | Link |
+|------|------|
+| Instagram | [@felipeluissalgueiro](https://www.instagram.com/felipeluissalgueiro/) |
+| LinkedIn | [felipe-luis-salgueiro](https://www.linkedin.com/in/felipe-luis-salgueiro) |
+| YouTube | [@felipeluissalgueirolima](https://www.youtube.com/@felipeluissalgueirolima) |
+| TikTok | [@felipeluissalgueiro](https://www.tiktok.com/@felipeluissalgueiro) |
+| Threads | [@felipeluissalgueiro](https://www.threads.net/@felipeluissalgueiro) |
+| Blog | [felipe-luis-salgueiro.cadencia.app.br](https://felipe-luis-salgueiro.cadencia.app.br) |
